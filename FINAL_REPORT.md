@@ -44,7 +44,7 @@ The Iris-AutoSort V3.0 has achieved a benchmark-level **95.00% Accuracy** on the
 ### 3.1 Confusion Matrix
 The following matrix visualizes the system's performance across all categories:
 
-![Confusion Matrix](outputs/confusion_matrix.png)
+![Confusion Matrix](confusion_matrix.png)
 
 ### 3.2 Performance Breakdown
 - **Strengths**: The system achieves near-perfect separation for *Iris-setosa* and *Iris-gigantica* due to their distinct physical profiles.
