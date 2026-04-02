@@ -55,7 +55,7 @@ The following matrix visualizes the system's performance across all categories:
 ## 4. Learning Curve
 The training process is monitored via the Loss Convergence graph, which tracks the reduction of Categorical Cross-Entropy over time.
 
-![Loss Graph](outputs/mse_convergence.png)
+![Loss Graph](mse_convergence.png)
 *Figure 2: The Learning Curve shows the Categorical Cross-Entropy minimization over 10,000 iterations. The smooth decay reflects the stability of our Xavier initialization and L2 regularization strategies.*
 
 ### 4.1 Convergence Behavior
@@ -66,7 +66,7 @@ The graph demonstrates a smooth, logarithmic decay. The implemented **Learning R
 ## 5. Multi-Dimensional Distribution
 The Classification Cloud plot demonstrates how the species cluster in the multi-dimensional feature space.
 
-![Classification Plot](outputs/classification_clouds.png)
+![Classification Plot](classification_clouds.png)
 
 This visualization confirms that while some species share similar dimensions (the overlap between the blue and green "clouds"), the added interaction features and Softmax logic provide the "warp" needed to separate them effectively.
 
